@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kozmostudio</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!--pisave-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Jaldi:wght@400;700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        vertical-align: middle;
+      }
+      .slika {
+        background-image: url("ozadje1.png");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        min-height: 1300px;
+      }
+      .icon-lg {
+        font-size: 3rem;
+      }
+      .naslov {
+        font-family: "Italiana";
+      }
+      .crta {
+        border-top: 2px solid black;
+      }
+      h1 {
+        font-family: "Outfit";
+        font-size: 6rem;
+      }
+      .banner {
+        font-family: "Jaldi";
+        font-size: 2rem;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      .naslov2 {
+        font-family: "Outfit";
+        font-size: 5rem;
+        margin-top: 50px;
+      }
+      .naslov3 {
+        font-family: "Italiana";
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .naslov4 {
+        font-family: "Italiana";
+        font-weight: bold;
+        font-size: 3.5rem;
+        margin: 0 auto;
+        width: 80%;
+      }
+      .gradient-ozadje {
+        background-image: linear-gradient(to bottom, #dec7b6, #807167);
+      }
+      .slike {
+        background-size: cover;
+        background-position: center;
+        height: 820px;
+        width: 48%;
+        margin: 0 auto;
+        padding-top: 350px;
+      }
+      .napisiSlik {
+        font-family: "Outfit";
+        font-size: 4rem;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid p-0 slika">
+      <header class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <i class="bi bi-list icon-lg"></i>
+          </div>
+          <div class="col d-flex align-items-center naslov">
+            <h2 class="pt-3">HOME</h2>
+          </div>
+          <div class="col-auto">
+            <a href="profil.html"> <i class="bi bi-person icon-lg"></i></a>
+          </div>
+        </div>
+        <hr class="crta w-100" />
+      </header>
+      <div
+        class="text-center text-white align-items-center"
+        style="margin-top: 400px"
+      >
+        <img src="logo.png" alt="logo" class="d-inline-block" />
+        <h1 class="d-inline-block">KOZMO STUDIO</h1>
+        <div class="banner mt-4">
+          An online academy dedicated to the art of pedicure, manicure, facial
+          care and massages.
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 40px">
+      <div class="naslov2 pb-4">THE NEXT GENERATION COSMETICS SCHOOL</div>
+      <div class="mt-5 naslov3 text-center">
+        At KOZMO STUDIO, embrace the flexibility of online learning to pursue a
+        career in beauty.
+      </div>
+
+      <div class="mt-5 naslov4 text-center">
+        Our expert-led courses offer a comprehensive, convenient way to get
+        started, no matter where you are.
+      </div>
+    </div>
+
+    <div class="gradient-ozadje px-4 pb-5">
+      <div class="text-white naslov2 mb-5">PROGRAMS</div>
+      <div class="text-center text-white napisiSlik">
+        <div
+          class="slike d-inline-block"
+          style="background-image: url(massages.png)"
+        >
+          <a href="masaze.html" class="text-white">MASSAGES</a>
+        </div>
+
+        <div
+          class="slike d-inline-block"
+          style="background-image: url(facialcare.png)"
+        >
+          FACIAL CARE
+        </div>
+
+        <div
+          class="slike d-inline-block mt-3"
+          style="background-image: url(pedicure.png)"
+        >
+          PEDICURE
+        </div>
+        <div
+          class="slike d-inline-block mt-3"
+          style="background-image: url(manicure.png)"
+        >
+          MANICURE
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
